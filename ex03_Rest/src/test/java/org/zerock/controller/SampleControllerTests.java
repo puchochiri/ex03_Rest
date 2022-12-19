@@ -56,7 +56,7 @@ public class SampleControllerTests {
 		
 		String jsonStr = new Gson().toJson(ticket);
 		
-		log.info(jsonStr);
+		log.info("jsonStr :" + jsonStr);
 		
 		mockMvc.perform(post("/sample/ticket")
 				.contentType(MediaType.APPLICATION_JSON)

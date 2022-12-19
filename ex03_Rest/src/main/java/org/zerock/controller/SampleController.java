@@ -106,6 +106,7 @@ public class SampleController {
 				return new String[] {"category: " + cat, "productid: " + pid};
 		
 	}
+	
 	// YARC
 	// localhost:9095/sample/ticket
 	// {"tno":123,"owner":"user00","grade":"AAA"}
@@ -118,7 +119,8 @@ public class SampleController {
 		
 	}
 	
-	
+	// http://localhost:8080/sample/ticket
+	// Body,raw,JSON {"tno":123,"owner":"Admin","grade":"AAA"}
 	
 	
 }
