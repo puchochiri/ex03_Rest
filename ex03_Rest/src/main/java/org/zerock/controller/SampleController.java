@@ -110,6 +110,7 @@ public class SampleController {
 	// YARC
 	// localhost:9095/sample/ticket
 	// {"tno":123,"owner":"user00","grade":"AAA"}
+	// @Responsebody
 	@PostMapping("/ticket")
 	public Ticket convert(@RequestBody Ticket ticket) {
 		
